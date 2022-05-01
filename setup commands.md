@@ -47,3 +47,5 @@ sudo screen mongod
 node scripts/init.mongo.js
 
 screen npm start
+
+### By the way, my port will be closed at around 5.7. Considering the AWS payment settings...If any further problem can contact me at 202476410arsmart@gmail.com
