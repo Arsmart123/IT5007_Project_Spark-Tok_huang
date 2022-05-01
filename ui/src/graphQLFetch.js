@@ -10,7 +10,7 @@ function jsonDateReviver(key, value) {
 export default async function graphQLFetch(query, variables = {}) {
   try {
     // Note if your are using server with public IP, change the "http://localhost:3000/graphql" below into your public IP address
-    const API_address = "http://localhost:3000/graphql";
+    const API_address = "13.56.29.71";
     const response = await fetch(API_address, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
